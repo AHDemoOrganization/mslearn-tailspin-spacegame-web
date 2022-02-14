@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: LocalAgent
+  vmImage: local
 
 variables:
   buildConfiguration: 'Release'
